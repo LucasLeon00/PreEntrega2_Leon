@@ -7,32 +7,48 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Contacto</title>
     <link rel="shortcut icon" href="../Media/logo.png">
-    <link rel="stylesheet" href="../Pages/css/style.css">
+    <link rel="stylesheet" href="scss/styles.css">
 </head>
 
 <body class="body_2">
-    <h1>Contactanos</h1>
+    <img class= "logo" src="../Media/logo.png" alt="Imagen de logo">
+    <iframe width="100" height="100" ></iframe>
+    <div class="contenedor">
+        <header class="header">
+            <nav id="menu">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html" target="_blank">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html" target="_blank">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html" target="_blank">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ingresa.html" target="_blank">Ingresa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quehacer.html" target="_blank">Que necesitas hacer?</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <h1 class="titulo_contacto">Contactanos</h1>
     <div class="container">
         <form action="#" method="get" enctype="multipart/form-data">
             <fieldset>
                 <div class="form-group">
-                    <legend>Datos de Contacto</legend>
-                    <label for="nombre">Nombre:</label>
+                    <legend class="titulo_contacto2">Datos de Contacto</legend>
+                    <label for="nombre" class="etiquetas">Nombre:</label>
                     <br>
                     <input type="text" name="nombre" placeholder="Introduzca su nombre" class="form-control">
                     <br>
-                    <label for="apellido">Apellido:</label>
+                    <label for="apellido" class="etiquetas">Apellido:</label>
                     <br>
                     <input type="text" name="apellido" placeholder="Introduzca su apellido" class="form-control">
                     <br>
-                    <label for="telefono">Telefono:</label>
+                    <label for="telefono" class="etiquetas">Telefono:</label>
                     <br>
                     <input type="text" name="telefono" placeholder="Introduzca su telefono" class="form-control">
                     <br>
-                    <label for="tuconsulta">Decinos tu consulta</label>
+                    <label for="tuconsulta" class="etiquetas">Decinos tu consulta</label>
                     <input type="text" name="tuconsulta" placeholder="Contanos mas" class="form-control">
                     <br>
-                    <label for="tipodeconsulta">Tipo de consulta:</label>
+                    <label for="tipodeconsulta" class="etiquetas">Tipo de consulta:</label>
                     <br>
                         <select name="tipodeconsulta" id="tipodeconsulta">
                             <option value="Compra">Compra</option>
@@ -54,11 +70,11 @@
 
     <header>
         <nav>
-            <a href="INDEX.html" target="_blank">Volver al menu principal</a>
+            <a href="INDEX.html" target="_blank" class="volver_menucontacto">Volver al menu principal</a>
         </nav>
     </header>
 
-    <footer>
+    <footer class="footer_contacto">
         <section>
             <article>
                 <table id="tabla" border="1" cellpadding="4" cellspacing="4"> 
@@ -89,6 +105,13 @@
                             <li><a>Amigurumis</a></li>
                             <li><a>Agujas</a></li>
                             <li><a>Carrito</a></li> 
+                        </td>
+                        <td>
+                            <li><a>Por WhatsApp al (+54) 11-2172-7947</a></li>
+                            <br>
+                            <li><a>Por telefono al (011) 4686-7409</a></li>
+                            <br>
+                            <li><a>Por Instagram al @tejidossusi</a></li>
                         </td>
                 </table>
             </article>

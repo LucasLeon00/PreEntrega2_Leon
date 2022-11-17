@@ -58,14 +58,11 @@ menu{
 
 nav{
     list-style: none;
-    @include reset-padmar()
-    display: inline-block
+    @include reset-padmar();
+    display: inline-block;
     nav-item{
         nav-link{
-
-            @include btn($background-color:$colorPrincipal, 
-            $color:$colorSecundario, 
-            $bold: 'true');
+            @include btn($background-color:$colorPrincipal, $color:$colorSecundario, $bold: 'true');
             &:hover{
                 @include btn($colorSecundario, $colorTerciario, 'false')
             }

@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nosotros</title>
     <link rel="shortcut icon" href="../Media/logo.png">
-    <link rel="stylesheet" href="../Pages/css/style.css">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="scss/styles.css">
 </head>
 
 <body class="body_4">
-    <h1>Nosotros</h1>
-    <header>
-        <aside>
+    <div class="contenedor_productos">
+        <header class="header_productos">
+            <img class="logo" src="../Media/logo.png" alt="Imagen de logo">
+            <nav id="menu">
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html" target="_blank">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html" target="_blank">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html" target="_blank">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ingresa.html" target="_blank">Ingresa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quehacer.html">Que necesitas hacer?</a></li>
+                </ul>
+        </nav>
+        </header>
         <section>
+            <h1 class="titulo_nosotros">Sobre Nosotros</h1>
             <article class="texto_nosotros">
-                <p style="color:red">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quis sunt eius fuga magni asperiores vitae libero sed a numquam nam tenetur architecto animi id similique vero dolor, beatae ex rem possimus repudiandae quidem omnis? Error aspernatur aperiam facilis velit expedita earum provident harum! Animi illum magnam suscipit aliquam nobis.</p>
-                <p style="color: black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur laudantium optio porro repellat repellendus vitae iste ullam facere, distinctio ipsum. Sequi esse similique ab harum qui odit inventore vel numquam nostrum adipisci a nam saepe itaque, aliquid laborum suscipit fugiat dolorem eos corporis cumque quo, labore perferendis. Dicta, repudiandae voluptates!</p>
-                <p style="color: pink">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, totam saepe. Magni blanditiis atque nulla animi facilis culpa ullam maxime rem, placeat vel modi dolore debitis illo repellendus illum minima non consequatur harum similique eum quis. Voluptates provident repellat assumenda excepturi! Quam, itaque iste? Unde libero nemo voluptatibus vel. Similique!</p>
+                <p class="texto_nosotros1">En el año 2010 nace Susi Tejidos como resultado de casi un año 
+                de deseo y desarrollo. Nuestro objetivo fue y sigue siendo la elaboracion de productos, desde
+                el amor y la calidez que queremos transmitir, asi como tambien buscamos transmitirlas
+                mediante cada clase y/o curso que ofrecemos
+                </p>
             </article>
         </section>
     </aside>
@@ -25,11 +39,11 @@
 
     <header>
         <nav>
-            <a href="INDEX.html" target="_blank">Volver al menu principal</a>
+            <a href="INDEX.html" target="_blank" class="volver_menucontacto">Volver al menu principal</a>
         </nav>
     </header>
 
-    <footer>
+    <footer class="footer_4">
         <section>
             <article>
                 <table id="tabla" border="1" cellpadding="4" cellspacing="4"> 
@@ -61,9 +75,16 @@
                             <li><a>Agujas</a></li>
                             <li><a>Carrito</a></li> 
                         </td>
-                </table>
-            </article>
-        </section>
-    </footer>
+                        <td>
+                            <li><a>Por WhatsApp al (+54) 11-2172-7947</a></li>
+                            <br>
+                            <li><a>Por telefono al (011) 4686-7409</a></li>
+                            <br>
+                            <li><a>Por Instagram al @tejidossusi</a></li>
+                        </td>
+                    </table>
+                </article>
+            </section>
+        </footer>
 </body>
 </html>
